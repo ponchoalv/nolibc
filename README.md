@@ -16,7 +16,6 @@ Wikibook link I took from his stream and I found very helpful and complementary 
 
 - [Interfacing with Linux](https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux)
 
-
 What I would like to do next, write and test the code of his next video [part 2](https://www.youtube.com/watch?v=9Xby3VhcPOk)
 
 And then try to make a similar thing for arm64 (mac sillicons)
