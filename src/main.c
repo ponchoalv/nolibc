@@ -8,12 +8,12 @@ ssize_t write(int fildes, const void *buf, size_t nbyte)
     return syscall(1, fildes, buf, nbyte);
 }
 
-size_t strz_len(const char *strz)
+size_t strlen(const char *str)
 {
     size_t len = 0;
-    while(*strz)
+    while(*str)
     {
-        strz++;
+        str++;
         len++;
     }
 
@@ -24,7 +24,7 @@ int main ()
 {
     const char* msg = "Hello Sailor!\n";
     write(1, "pepe\n", 5);
-    write(1, msg, strz_len(msg));
+    write(1, msg, strlen(msg));
 
     return 0;
 }
