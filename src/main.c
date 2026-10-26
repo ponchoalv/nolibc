@@ -5,6 +5,7 @@ extern long syscall(long number, ...);
 
 ssize_t write(int fildes, const void *buf, size_t nbyte)
 {
+ 
     return syscall(1, fildes, buf, nbyte);
 }
 
